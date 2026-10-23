@@ -114,19 +114,20 @@
 
     <!-- TOP HEADER WITH MOBILE-FRIENDLY ACTION GRID -->
     <header class="w-full no-print pt-5 pb-4 px-4 sm:px-6 border-b border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 max-w-6xl">
-        <!-- Brand Title -->
-        <div class="flex items-center space-x-3 w-full sm:w-auto justify-start">
-            <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-slate-400 to-white flex items-center justify-center text-slate-950 font-bold font-cinzel text-xl shadow-lg shrink-0">
+        <!-- Brand Title (Hyperlinked to Website) -->
+        <a href="https://nyayamarglegalsolutions.in/" target="_blank" class="flex items-center space-x-3 w-full sm:w-auto justify-start group transition">
+            <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-slate-400 to-white flex items-center justify-center text-slate-950 font-bold font-cinzel text-xl shadow-lg shrink-0 group-hover:scale-105 transition-transform">
                 N
             </div>
             <div>
-                <h1 class="text-base sm:text-lg font-bold font-cinzel tracking-wider text-slate-100 uppercase">
+                <h1 class="text-base sm:text-lg font-bold font-cinzel tracking-wider text-slate-100 uppercase group-hover:text-slate-300 transition-colors flex items-center gap-1.5">
                     NyayaMarg Legal Solution
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white transition-colors"></i>
                 </h1>
             </div>
-        </div>
+        </a>
 
-        <!-- Quick Action Buttons Grid (Fits 100% Mobile Screen Width Without Clipping) -->
+        <!-- Quick Action Buttons Grid -->
         <div class="grid grid-cols-2 sm:flex items-center gap-2 w-full sm:w-auto">
             <a href="https://wa.me/919455247956" target="_blank" class="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-2 rounded-lg font-medium text-xs transition shadow-lg shadow-emerald-900/20 whitespace-nowrap">
                 <i class="fa-brands fa-whatsapp text-sm"></i>
@@ -182,9 +183,10 @@
                             Founding Partner
                         </p>
                         <div class="h-[1px] w-14 silver-gradient-bg mb-3"></div>
-                        <p class="text-xs sm:text-sm font-cinzel text-slate-200 font-bold tracking-widest">
+                        <a href="https://nyayamarglegalsolutions.in/" target="_blank" class="text-xs sm:text-sm font-cinzel text-slate-200 hover:text-white font-bold tracking-widest inline-flex items-center gap-1.5 transition">
                             NYAYAMARG LEGAL SOLUTION
-                        </p>
+                            <i class="fa-solid fa-globe text-[10px] text-slate-400"></i>
+                        </a>
                         <p class="text-[9px] text-slate-400 italic font-light tracking-widest uppercase mt-0.5">
                             Integrity &bull; Innovation &bull; Advocacy
                         </p>
@@ -217,7 +219,9 @@
                         <h3 class="text-xs font-cinzel font-bold text-slate-200 tracking-[0.2em] uppercase">
                             Areas of Practice
                         </h3>
-                        <span class="text-[9px] font-mono text-slate-400">NYAYAMARG</span>
+                        <a href="https://nyayamarglegalsolutions.in/" target="_blank" class="text-[9px] font-mono text-slate-400 hover:text-slate-200 transition">
+                            NYAYAMARG
+                        </a>
                     </div>
 
                     <!-- Practice Grid -->
@@ -263,7 +267,7 @@
 
     <!-- FOOTER -->
     <footer class="no-print w-full py-4 text-center text-slate-500 text-xs border-t border-white/5">
-        <p>Designed for Mohit Singh Yaduvanshi &bull; NyayaMarg Legal Solution</p>
+        <p>Designed for Mohit Singh Yaduvanshi &bull; <a href="https://nyayamarglegalsolutions.in/" target="_blank" class="hover:underline hover:text-slate-400">NyayaMarg Legal Solution</a></p>
     </footer>
 
     <!-- JAVASCRIPT LOGIC -->
@@ -292,6 +296,7 @@ VERSION:3.0
 FN:Mohit Singh Yaduvanshi
 N:Yaduvanshi;Mohit;Singh;;
 ORG:NyayaMarg Legal Solution
+URL:https://nyayamarglegalsolutions.in/
 TITLE:Founding Partner
 TEL;TYPE=CELL,VOICE:+919455247956
 EMAIL;TYPE=INTERNET,HOME:adv.mohitky@gmail.com
